@@ -11,7 +11,7 @@ body {
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     border: 0 0 0 0;
-    background-color: ivory;
+    background-color: #8a8a8a;
 }
 
 a {
@@ -41,16 +41,16 @@ a {
 }
 
 .footer p {
-    color: #ffffff;
+    color: #00ff00;
     text-align: right;
 }
 
 .parallax {
     perspective: 1px;
     height: 85.3vh;
+    padding: 0 auto 0 auto;
     overflow-x: hidden;
     overflow-y: auto;
-    padding: 0;
 }
 
 .parallax__layer {
@@ -65,7 +65,7 @@ a {
     font-family: consolas;
     font-size: 48px;
     padding-left: 20px;
-    color: #ffffff;
+    color: #00ff00;
 }
 
 .flex-parent {
@@ -76,10 +76,8 @@ a {
 
 .all-sections {
     flex-direction: column;
-    width: 60%;
+    width: 70%;
     margin: 0 auto 0 auto;
-    background-color: transparent;
-    transform: translateZ(0);
     height: fit-content;
 }
 
@@ -92,7 +90,7 @@ a {
 }
 
 .transparent {
-    background-color: #ffffffd5;
+    /* background-color: #ffffffd5; */
 }
 
 .section-head {
