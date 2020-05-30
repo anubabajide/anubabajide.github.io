@@ -11,10 +11,10 @@ const elements = [
 Now I build beautiful apps while writing even better code_</p>
 </div>`, 
 `<div class="section-text" id="add-1">
-<p>Efficient algorithms [or I try to]_ 
-Functional and responsive websites [like this one]_ 
+<p><a href="https://github.com/anubabajide/Coding-Challenges" target="_blank" rel="noopener noreferrer">Efficient algorithms</a> [or I try to]_ 
+[like this one and others in the links (I have done)]_ 
 Scripts to automate boring tasks [why not?]_
-Robot applications on raspberry-pi and arduino [calm down, as a hobby]_</p>
+Robot applications on raspberry-pi and arduino [calm down, as a hobby, see (I have done)]_</p>
 </div>`,
 `<div class="section-text" id="add-2"> 
 <p>Trick question, as long as it can be learned, I can use it_</p>
