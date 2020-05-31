@@ -32,7 +32,7 @@ Robot applications on raspberry-pi and arduino [calm down, as a hobby, see (I ha
 
 variables.map((el, index) => {
     el.addEventListener('click', guy =>  {
-        console.log(index, el);
+        // console.log(index, el);
         if (index < 5){
             if (!status[index]) {
                 el.insertAdjacentHTML('afterend', elements[index]);
