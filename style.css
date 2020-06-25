@@ -109,19 +109,27 @@ p {
     height: 30px;
     width: auto;
     /* float: left; */
-    margin: 20px;
+    margin: 0.5em;
 }
 
 .footer {
     position: absolute;
     bottom: 0;
-    right: 0;
+    box-sizing: border-box;
+    width: 100%;
+    /* right: 0; */
     background-color: #000000;
     padding: 1em;
-    padding-right: 4em;
+    /* padding-right: 4em; */
+    justify-content: space-between; 
+    padding-left: 5em;
 }
 
 .footer p {
+    /* position: absolute; */
+    align-self: center;
     color: #00ff00;
     text-align: right;
+    right: 0;
+    bottom: 0;
 }
