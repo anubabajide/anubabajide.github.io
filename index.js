@@ -26,7 +26,7 @@ Now I build beautiful apps while writing even better code_</p>
 <p>-<a href="https://github.com/anubabajide/Maze-Runner" target="_blank" rel="noopener noreferrer">Maze Runner</a>: A robot that solves mazes!_</p>
 </div>`,
 `<div class="section-text" id="add-4"> 
-<p>-<a href="https://1drv.ms/b/s!AutTpnFLDtu5tCotfVCPwo49-HyZ?e=l3GzXH" target="_blank" rel="noopener noreferrer">My CV_</a></p>
+<p>-<a href="https://docs.google.com/document/d/1tpbEQiFH0bI5Q5tHfpoCqy7lN0DId2a55nQWBSTqfmI/edit?usp=sharing" target="_blank" rel="noopener noreferrer">My CV_</a></p>
 </div>`
 ];
 
