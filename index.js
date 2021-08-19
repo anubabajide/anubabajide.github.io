@@ -20,10 +20,10 @@ Now I build beautiful apps while writing even better code_</p>
 <p>Trick question, as long as it can be learned, I can use it_</p>
 </div>`,
 `<div class="section-text" id="add-3"> 
-<p>-<a href="https://anubabajide.github.io/Forkify/" target="_blank" rel="noopener noreferrer">Forkify</a>: A cool food recipe and shopping website [Vanilla JS]_</p>
-<p>-<a href="https://anubabajide.github.io/Budgety/" target="_blank" rel="noopener noreferrer">Budgety</a>: A simple income and expense budget calculation app [Vanilla JS]_</p>
-<p>-<a href="https://partner-learn.herokuapp.com/" target="_blank" rel="noopener noreferrer">Partner Learn</a>: An innovative website to pair up with friends and learn efficeint DSA design [React - Flask]_</p>
+<p>-<a href="https://anubabajide.github.io/Forkify/" target="_blank" rel="noopener noreferrer">Forkify [Under Construction]</a>: A cool food recipe and shopping website [Vanilla JS]_</p>
+<p>-<a href="https://partner-learn.herokuapp.com/" target="_blank" rel="noopener noreferrer">Partner Learn [Under Construction]</a>: An innovative website to pair up with friends and learn efficeint DSA design [React - Flask]_</p>
 <p>-<a href="https://github.com/anubabajide/Maze-Runner" target="_blank" rel="noopener noreferrer">Maze Runner</a>: A robot that solves mazes!_</p>
+<p>-<a href="https://github.com/anubabajide" target="_blank" rel="noopener noreferrer">Others</a>: For the countless server projects that can't be seen_</p>
 </div>`,
 `<div class="section-text" id="add-4"> 
 <p>-<a href="https://docs.google.com/document/d/1tpbEQiFH0bI5Q5tHfpoCqy7lN0DId2a55nQWBSTqfmI/edit?usp=sharing" target="_blank" rel="noopener noreferrer">My CV_</a></p>
