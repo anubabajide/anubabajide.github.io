@@ -1,46 +1,140 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title> Aanu Babajide </title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="icon" type="img/png" href="./Images/My logo.png" style="width: 30px; height: auto;">
-    </head>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aanu Babajide — Quant Analyst, ML &amp; Data Engineer</title>
+    <meta name="description" content="Aanu Babajide — quant analyst, machine learning and data engineer in London. Production ML, data platforms, LLM evaluation and AI safety.">
+    <meta name="theme-color" content="#0a0e0a">
+    <meta property="og:title" content="Aanu Babajide — Quant Analyst, ML &amp; Data Engineer">
+    <meta property="og:description" content="Production ML, data platforms, LLM evaluation and AI safety.">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/png" href="./Images/My logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="skip" href="#main">Skip to content</a>
 
-    <body >
-        <div class="container">
-            <div class="hello-world-container">
-                <h1 class="hello-world-text"> root@Aanu-Babajide:~$ software engineer</h1>
-            </div>
-            <div class='all-sections flex-parent'>
-                <div class="section-container "> 
-                    <h2 class="section-head">About Me</h2>
+    <div class="term" role="application" aria-label="Terminal-style portfolio">
+        <header class="term-bar">
+            <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="term-title">user@aanubabajide: ~</span>
+            <button class="theme-btn" type="button" id="theme-btn" title="Change colour theme">theme</button>
+        </header>
+
+        <nav class="term-nav" aria-label="Sections">
+            <a href="#about" data-cmd="about">about</a>
+            <a href="#work" data-cmd="work">work</a>
+            <a href="#projects" data-cmd="projects">projects</a>
+            <a href="#stack" data-cmd="stack">stack</a>
+            <a href="#education" data-cmd="education">education</a>
+            <a href="#contact" data-cmd="contact">contact</a>
+        </nav>
+
+        <main class="term-body" id="main" tabindex="-1">
+            <section class="block intro">
+                <pre class="ascii" aria-hidden="true">
+   __ _  __ _ _ __  _   _
+  / _` |/ _` | '_ \| | | |
+ | (_| | (_| | | | | |_| |
+  \__,_|\__,_|_| |_|\__,_|</pre>
+                <p class="cmd"><span class="ps1">user@aanubabajide:~$</span> whoami</p>
+                <h1 class="out whoami"><span id="typed">Aanu Babajide — Quant Analyst, ML &amp; Data engineer, London</span></h1>
+                <p class="out dim">Type <kbd>help</kbd> below, or click a command above.</p>
+            </section>
+
+            <section class="block" id="about">
+                <p class="cmd"><span class="ps1">user@aanubabajide:~$</span> cat about.md</p>
+                <div class="out">
+                    <p>I'm a learner, eater and engineer (in that order). I studied computer
+                    engineering, fell in love with programming (and chess), and now build
+                    production data and machine-learning systems in finance. I also lead the
+                    small team that runs them.</p>
+                    <p>I like taking ideas from a notebook to production quickly, and I care
+                    about measuring things properly. Lately that means LLM applications and the
+                    evaluations that keep them honest.</p>
+                    <p class="hl">Currently interested in: <span>AI safety</span>, especially
+                    evaluations, scalable oversight and AI control.</p>
                 </div>
-                
-                <div class="section-container">
-                    <h2 class="section-head">I build</h2>
-                </div>
-                
-                <div class="section-container"> 
-                    <h2 class="section-head">I use</h2>
-                </div>
-                
-                <div class="section-container"> 
-                    <h2 class="section-head">I have done</h2>
-                </div>
-                
-                <div class="section-container"> 
-                    <h2 class="section-head">Download</h2>
-                </div>
-                
-            </div>
-            <div class="footer flex-parent">
-                <a href="https://twitter.com/Aanu_Babajide" target="_blank" rel="noopener noreferrer"><img src="./Images/twitter.svg" class="icon" ></a>
-                <a href="https://github.com/anubabajide" target="_blank" rel="noopener noreferrer"><img src="./Images/github.svg" class="icon" ></a>
-                <a href="https://www.linkedin.com/in/aanub" target="_blank" rel="noopener noreferrer"><img src="./Images/linkedin.svg" class="icon"></a>
-                <a href="https://stackoverflow.com/story/anubabajide" target="_blank" rel="noopener noreferrer"><img src="./Images/stack-overflow.svg" class="icon"></a>
-                <p>&copy Aanu Babajide 2020</p>
-            </div>
-        </div>
-    </body>
+            </section>
+
+            <section class="block" id="work">
+                <p class="cmd"><span class="ps1">user@aanubabajide:~$</span> history --career</p>
+                <ol class="out log">
+                    <li><time>2021 — now</time><div><b>Quant / ML &amp; data engineering</b> · investment banking, London
+                        <span class="dim">Team lead. Large-scale data pipelines, forecasting &amp; anomaly-detection models, RAG apps and LLM evals.</span></div></li>
+                    <li><time>2020 — 2021</time><div><b>Enterprise systems engineer</b> · Lagos
+                        <span class="dim">CI/CD for mobile apps; lean test-and-deploy pipelines.</span></div></li>
+                    <li><time>2018</time><div><b>Security consulting intern</b> · Lagos
+                        <span class="dim">Vulnerability scanning and penetration testing.</span></div></li>
+                </ol>
+            </section>
+
+            <section class="block" id="projects">
+                <p class="cmd"><span class="ps1">user@aanubabajide:~$</span> ls -l ~/projects</p>
+                <ul class="out ls">
+                    <li><span class="perm">drwxr-xr-x</span><span class="name">spending-monitor/</span><span class="desc">Self-hosted budget alerts over Open Banking, on a Raspberry Pi. <em class="tag">wip</em></span></li>
+                    <li><span class="perm">drwxr-xr-x</span><span class="name">home-lab/</span><span class="desc">Hardened self-hosted server for personal services.</span></li>
+                    <li><span class="perm">drwxr-xr-x</span><a class="name" href="https://github.com/anubabajide/Maze-Runner" target="_blank" rel="noopener noreferrer">maze-runner/</a><span class="desc">Autonomous maze-solving robot: sensing, path-finding, motor control.</span></li>
+                    <li><span class="perm">drwxr-xr-x</span><a class="name" href="https://github.com/anubabajide/Coding-Challenges" target="_blank" rel="noopener noreferrer">coding-challenges/</a><span class="desc">Efficient algorithms (or I try to).</span></li>
+                    <li><span class="perm">lrwxrwxrwx</span><a class="name" href="https://github.com/anubabajide" target="_blank" rel="noopener noreferrer">more -&gt; github</a><span class="desc">Everything else.</span></li>
+                </ul>
+            </section>
+
+            <section class="block" id="stack">
+                <p class="cmd"><span class="ps1">user@aanubabajide:~$</span> cat stack.toml</p>
+                <dl class="out kv">
+                    <dt>languages</dt><dd>Python, SQL, Spark, Java, q/kdb+</dd>
+                    <dt>ml</dt><dd>supervised modelling, forecasting, anomaly detection, evaluation</dd>
+                    <dt>llms</dt><dd>RAG, eval &amp; benchmark design, MCP, coding agents, local inference</dd>
+                    <dt>data</dt><dd>batch pipelines, Airflow, cloud data lakes</dd>
+                    <dt>infra</dt><dd>Linux, containers, systemd, CI/CD, Git</dd>
+                </dl>
+                <p class="out dim"># honestly: if it can be learned, I can use it</p>
+            </section>
+
+            <section class="block" id="education">
+                <p class="cmd"><span class="ps1">user@aanubabajide:~$</span> cat education.log</p>
+                <ul class="out bullets">
+                    <li>Master's-level AI &amp; Data Science qualification — <b>Distinction</b></li>
+                    <li>B.Sc. Computer Engineering, University of Lagos</li>
+                    <li>Published research on infrared sensing for finger-movement detection (2019)</li>
+                    <li>Winner, HackExpo 2018 deep-learning hackathon</li>
+                    <li>Chess: national school gold medals, four years running ♞</li>
+                </ul>
+            </section>
+
+            <section class="block" id="contact">
+                <p class="cmd"><span class="ps1">user@aanubabajide:~$</span> ./contact.sh</p>
+                <ul class="out links">
+                    <li><a href="https://www.linkedin.com/in/aanub" target="_blank" rel="noopener noreferrer">linkedin</a><span class="dim">/in/aanub</span></li>
+                    <li><a href="https://github.com/anubabajide" target="_blank" rel="noopener noreferrer">github</a><span class="dim">@anubabajide</span></li>
+                    <li><a href="https://stackoverflow.com/story/anubabajide" target="_blank" rel="noopener noreferrer">stack overflow</a><span class="dim">anubabajide</span></li>
+                </ul>
+            </section>
+
+            <div id="output" aria-live="polite"></div>
+
+            <form class="prompt" id="prompt" autocomplete="off">
+                <label for="cmd-input" class="ps1">user@aanubabajide:~$</label>
+                <input id="cmd-input" type="text" spellcheck="false" autocapitalize="off" aria-label="Type a command, e.g. help">
+            </form>
+        </main>
+
+        <footer class="status">
+            <span class="seg mode">NORMAL</span>
+            <span class="seg">~/portfolio</span>
+            <span class="seg grow"></span>
+            <a class="seg icon" href="https://github.com/anubabajide" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <svg viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            </a>
+            <a class="seg icon" href="https://www.linkedin.com/in/aanub" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <svg viewBox="0 0 256 256"><path d="M45.98 10.51c-19.6 0-35.48 15.88-35.48 35.48V210c0 19.6 15.88 35.5 35.48 35.5H210c19.6 0 35.5-15.9 35.5-35.5V45.99c0-19.6-15.9-35.48-35.5-35.48H45.980zm18.2 39.8c12.08 0 19.52 7.930 19.75 18.36 0 10.2-7.67 18.36-19.98 18.36h-.23c-11.86 0-19.52-8.16-19.52-18.36 0-10.43 7.89-18.36 19.98-18.36zM168.3 99.04c23.2 0 40.7 15.16 40.7 47.76v61h-35.3v-56.9c0-14.3-5.2-24-17.9-24-9.8 0-15.6 6.5-18.2 12.9-.9 2.3-1.1 5.4-1.1 8.6v59.4h-35.3s.4-96.3 0-106.3h35.3v15c4.7-7.2 13.1-17.46 31.8-17.46zM46.29 101.5H81.6v106.3H46.29V101.5z"/></svg>
+            </a>
+            <span class="seg">&copy;&nbsp;<span id="year">2026</span>&nbsp;Aanu Babajide</span>
+        </footer>
+    </div>
+
     <script src="index.js"></script>
+</body>
 </html>
